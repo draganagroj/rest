@@ -1,0 +1,9 @@
+language: java
+
+addons:
+  coverity_scan:
+   project:
+      name: draganagroj/rest
+    build_command_prepend: ./configure
+    build_command: make
+    branch_pattern: master  

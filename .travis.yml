@@ -7,5 +7,6 @@ addons:
   coverity_scan:
    project:
       name: draganagroj/rest
-   
+   build_command_prepend: ant fetch
+   build_command: ant compile
     branch_pattern: master  

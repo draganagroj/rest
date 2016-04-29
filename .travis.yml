@@ -1,7 +1,8 @@
 language: java
 before_install:
   - cd java
-
+install:
+  -
 addons:
   coverity_scan:
    project:

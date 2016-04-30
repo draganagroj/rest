@@ -1,7 +1,6 @@
 language: java
 
-install:
-  -
+
 addons:
   coverity_scan:
    project:

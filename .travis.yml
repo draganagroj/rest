@@ -9,9 +9,8 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "draganagroj/rest"
+      name: rest
       description: "Build submitted via Travis CI"
     notification_email: groj.dragana@gmail.com
-    build_command_prepend: "mvn clean"
-    build_command:   "mvn -DskipTests=true compile"
+   
     branch_pattern: master

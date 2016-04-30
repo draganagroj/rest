@@ -6,6 +6,8 @@ env:
    #   via the "travis encrypt" command using the project repo's public key
    - secure: "ERdHFu2f2uC8h7VhMbIZ8QpU+pzDgEry1gJp6Xh6n/GyennHGZ6sxzIvcL7Z+ZMA4/xulp23UkFWAu1SNTclSQwyySQYNlueIyzp9zt0xB5nmaDViR5SerkkdOMTim/iPJYKfma245hAQdCiLbZeG94UZwqiOThUuyVR/i4Kkty8OyFBl4jv8rc5RP88T4GkDMfHlNCk2iMIt0WohzP3J1C4hHqfNkztpum65yFhLgvYKjuXlomuYPRttZmZRi5LoFDMDgr9FEeJT63G4MtGxFD+27w24uXMjq/i5pI38ndqA60Uel9GnRlmNlKGw9W1IMyAx6xdTYG2gWhmj1iKfRVjx6hBUFpY89kcHi+HaMfAoycycLU315e8XRX7PflYqqIUR9yL3NtsytHcSpzXnrquNQGAdNhsMcS9/EUWUYdqPRCAX9yq/vvvo9lzD08YcCbWDh+VaybX4elsrRhQRxRFxzfSrxA0BVJCE9NdQgSA9O+dDriukeriq2UbH6Jgv6YSm1/8RxPAj1tLi9gvr7wEV91HqVZAXLaQrVakaDSkfgK/zyBnHzocawc10mcwWD73VBf+Fl1mruuUCv5Gau2lgTNnDK28754MKddORpKhe0JZXerNKE5vmRD1PaMpCjlXpyWqpTFb1ANo1A1p0ebNfCdXMaUu0BNIoPy2Xg4="
 
+install: ant install-deps
+
 addons:
   coverity_scan:
     project:

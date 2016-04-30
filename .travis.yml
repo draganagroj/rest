@@ -9,7 +9,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: rest
+      name: "draganagroj/rest"
       description: "Build submitted via Travis CI"
     notification_email: groj.dragana@gmail.com
    

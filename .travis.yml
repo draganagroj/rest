@@ -4,5 +4,6 @@ language: java
 addons:
   coverity_scan:
    project:
+    name: "draganagroj/rest"
   
    branch_pattern: master  
